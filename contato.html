@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css.css">
+    <script src="https://kit.fontawesome.com/c7d4facc8d.js" crossorigin="anonymous"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <form enctype="application/x-www-form-urlencoded" method="POST">
+            <!-- GET   Dados passados pela URL        - 
+                 POST  Dados passados pela requisição - mantem cache
+            -->
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" name="nome" placeholder="Digite seu nome completo" />
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" placeholder="Digite seu email" />
+            <br>
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text" name="telefone" placeholder="Digite seu telefone" />
+            <br>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar"/>
+        </form>
+    </div>
+    
+    <div>
+        <strong>Redes Sociais</strong>
+        <br>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a><br />
+        <br>
+        <strong>Telefone:</strong> (16) 99999-9999
+        <br>
+        <br>
+        <address>
+            <strong>Rua X, 00</strong><br>
+            Ribeirão Preto SP<br>
+            11111-111
+        </address>
+    </div>
+</body>
+</html>
